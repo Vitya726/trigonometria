@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trigonometria</title>
+  <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon"> 
+  <link rel="stylesheet" href="Assets/css/triangle.css" type="text/css">
+  <link rel="stylesheet" href="Assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="Assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="Assets/css/img.css" type="text/css">
+  <link rel="stylesheet" href="Assets/css/navbar.css" type="text/css">
+  <link rel="stylesheet" href="Assets/css/main.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>Trigonometria</h1>
+    <div id="clock"></div>
+    <h2>Háromszög rajzoló</h2>
+  </header>
+  <hr>
+  <nav>
+    <div class="logo"><img src="Assets/favicon.png"></div>
+    <div class="nav-links">
+      <a href="index.html">Tananyag</a>
+      <a href="test.html">Feladatok</a>
+      <a href="game.html">Játék</a>
+    </div>
+  </nav>
+  <hr>
+  <main>
+    <div class="input-group">
+        <label for="a">Oldal a (cm):</label>
+        <input type="number" id="a" min="0">
+      </div>
+      <div class="input-group">
+        <label for="b">Oldal b (cm):</label>
+        <input type="number" id="b" min="0">
+      </div>
+      <div class="input-group">
+        <label for="gamma">Közbezárt szög (fok):</label>
+        <input type="number" id="gamma" min="0" max="180">
+      </div>
+    
+      <button onclick="drawTriangle()">Rajzold meg a háromszöget</button>
+      <button onclick="generateRandomTriangle()">🎲 Véletlen adatok</button>
+    
+      <div id="result"></div>
+    
+      <canvas id="triangleCanvas" width="400" height="400"></canvas>
+  </main>
+  <footer id="gamefooter">&copy; Spindler Viktor 2025.05.20</footer>
+  <script src="Assets/js/triangle.js"></script>
+  <script src="Assets/js/main.js"></script>
+</body>
+</html>

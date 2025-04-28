@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/css/test.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/img.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Trigonometria</title>
+</head>
+<body>
+  <header>
+    <h1>Trigonometria</h1>
+    <div id="clock"></div> 
+    <h2>Feladatok</h2>
+</header>
+<hr>
+<nav>
+    <div class="logo"><img src="Assets/favicon.png"></div>
+    <div class="nav-links">
+        <a href="game.html">Játék</a>
+        <a href="index.html">Tananyag</a>
+        <a href="trianglegenerator.html">Háromszög rajzoló</a>
+    </div>
+</nav>
+    <hr>
+    <main>
+    <h1>Tudásellenőrző Teszt – Trigonometria</h1>
+
+  <h2>Tesztkérdések <img src="Assets/test.png" id="test"></h2>
+  <form id="quizForm">
+    <p><strong>1. Milyen magas a világítótorony, ha 32°-os szögben látszik 100 méterről?</strong></p>
+    <input type="text" id="q1" placeholder="Válasz méterben">
+
+    <p><strong>2. Milyen távol van a hajó, ha 14°-os szögben látszik egy 50 m magas torony tetejéről?</strong></p>
+    <textarea id="q2" rows="3" placeholder="Ide írhatod a választ méterben"></textarea>
+
+    <p><strong>3. Mekkora az alap és a terület egy 12 cm-es szárú, 70°-os szögű háromszög esetén?</strong></p>
+    <input type="radio" name="q3" value="a"> Alap: 10 cm, Terület: 50 cm²<br>
+    <input type="radio" name="q3" value="b"> Alap: 8,21 cm, Terület: 46,3 cm²<br>
+    <input type="radio" name="q3" value="c"> Alap: 7 cm, Terület: 38 cm²<br>
+
+    <p><strong>4. Mekkora a területe annak a háromszögnek, ahol az alap 16 cm és a szárak 12 cm-esek?</strong></p>
+    <input type="radio" name="q4" value="a"> Terület: 50 cm²<br>
+    <input type="radio" name="q4" value="b"> Terület: 71,5 cm²<br>
+    <input type="radio" name="q4" value="c"> Terület: 38 cm²<br>
+    
+    <p><strong>5. Mekkora az alap és a terület egy 10 cm-es szárú, 50°-os szögű háromszög esetén?</strong></p>
+    <select id="q5">
+      <option value="">-- Válassz --</option>
+      <option value="a">Alap: 9,1 cm, Terület: 42 cm²</option>
+      <option value="b">Alap: 8,45 cm, Terület: 38,3 cm²</option>
+      <option value="c">Alap: 7 cm, Terület: 36 cm²</option>
+    </select>
+
+    <button type="button" onclick="evaluateQuiz()">Ellenőrzöm a válaszaim</button>
+  </form>
+
+  <div class="result" id="result"></div>
+    </main>
+    <hr>
+    <footer>&copy; Spindler Viktor 2025.05.20</footer>
+    <script src="Assets/js/test.js"></script>
+    <script src="Assets/js/main.js"></script>
+</body>
+</html>

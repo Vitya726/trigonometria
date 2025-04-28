@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/css/header.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/footer.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="Assets/css/img.css" type="text/css">
+    <link rel="preconnect" href="Assets/https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Trigonometria</title>
+</head>
+
+<body>
+    <header>
+        <h1>Trigonometria</h1>
+        <div id="clock"></div>
+        <h2>Tananyag</h2>
+    </header>
+    <hr>
+    <nav>
+        <div class="logo"><img src="Assets/favicon.png"></div>
+        <div class="nav-links">
+            <a href="game.html">Játék</a>
+            <a href="test.html">Feladatok</a>
+            <a href="trianglegenerator.html">Háromszög rajzoló</a>
+
+        </div>
+    </nav>
+    <hr>
+
+    <div class="container">
+        <div class="box">
+            <h2>Tartalomjegyzék</h2>
+            <ul>
+                <li><a href="#resz1">1. rész: Bevezetés </a></li>
+                <li><a href="#resz2">2. rész: Alapfogalmak </a></li>
+                <li><a href="#resz3">3. rész: Szinusz tétel, Koszinusz tétel </a></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h2 id="resz1">1. rész: Bevezetés <img src="Assets/invent.png" id="icon"> </h2>
+            <p>
+                A trigonometria a
+                matematika egy ága, mely a geometriában a háromszögek oldalai és szögei közötti összefüggésekkel, az
+                analízisben az őket leíró trigonometrikus függvényekkel foglalkozik. A trigonometria feladatai közé
+                tartozik
+                ezek tulajdonságainak vizsgálata és az ezeken alapuló számítások. A gömbi háromszögeket a gömbi
+                trigonometria írja le. A gömbi szögfüggvények is a szögfüggvények közé tartoznak; ugyanúgy elemzik és
+                felhasználják őket, mint a többit. A hiperbolikus geometriából származtathatók a hiperbolikus
+                szögfüggvények.
+            </p>
+            <p>Két derékszögű háromszög hasonlóságát teljesen meghatározza egyik hegyesszögük nagysága. Ha az egyik
+                hegyesszög mindkét háromszögben egyenlő (ekkor a másik hegyesszögük is egyenlő egymással) , akkor
+                hasonlóak,
+                így oldalaik aránya megegyezik. Ha az egyik háromszögben bármelyik két oldalhosszt elosztjuk egymással,
+                a
+                hányados ugyanakkora, mint a másik háromszög megfelelő két oldalhosszának hányadosa. Ezeket az arányokat
+                hagyományosan az ismert (például α szög) szögfüggvényeivel írják le: </p>
+
+
+
+            <h2 id="resz2">2. rész: Alapfogalmak <img src="Assets/definition.png" id="icon"></h2> <img
+                src="Assets/keplet_kep.png" id="keplet_kep">
+            <ul id="kepletek">
+                <li>sinα=<math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mfrac>
+                            <mn>szöggel szemközti befogó</mn>
+                            <mn>átfogó</mn>
+                        </mfrac>
+                    </math> <math xmlns="http://www.w3.org/1998/Math/MathML">
+
+                    </math></li>
+                <li>cosα=<math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mfrac>
+                            <mn>szög melletti befogó</mn>
+                            <mn>átfogó</mn>
+                        </mfrac>
+                    </math> <math xmlns="http://www.w3.org/1998/Math/MathML">
+
+                    </math></li>
+                <li>tanα=<math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mfrac>
+                            <mn>szöggel szemközti befogó</mn>
+                            <mn>szög melletti befogó</mn>
+                        </mfrac>
+                    </math> <math xmlns="http://www.w3.org/1998/Math/MathML">
+
+                    </math></li>
+            </ul>
+            <h4>Szinusz függvény:</h4>
+            <ol>
+                <li>A szinusz függvény grafikonja hullámzó alakú, amit szinuszgörbének nevezünk.</li>
+                <li>Az értékei -1 és 1 között mozognak, és a periódusa 2𝜋</li>
+                <li>A szinuszgörbe a 0 pontból indul, először nő, majd csökken, és ezt ismétli végtelenül.</li>
+            </ol>
+            <img src="Assets/sin_fgv.png" id="fv">
+            <h4>Koszinusz függvény:</h4>
+            <ol>
+                <li>A koszinusz függvény grafikonja is hullámforma, hasonló a szinuszgörbéhez, de el van tolva balra
+                    𝜋/2-vel.</li>
+                <li>Az értékei -1 és 1 között mozognak, és a periódusa 2𝜋</li>
+                <li>A koszinusz függvény a maximális értékről (1) indul, majd lecsökken -1-ig, és így ismétlődik.</li>
+            </ol>
+            <img src="Assets/cos_fgv.png" id="fv">
+            <h4>Tangens függvény:</h4>
+            <ol>
+                <li>A tangens függvény grafikonja ismétlődő, de nem hullámzó, hanem meredeken emelkedő szakaszokból áll.
+                </li>
+                <li>Minden 𝜋/2+𝑘𝜋 helyen (k egész szám) függőleges aszimptotája van, mert ott nem értelmezett.</li>
+                <li>A függvény periódusa π, és nincs alsó-felső határa – értékei a −∞ és ∞ között mozognak.</li>
+            </ol>
+            <img src="Assets/tg_fgv.png" id="fv">
+            <h4>Kotangens függvény:</h4>
+            <ol>
+                <li>A kotangens függvény görbéje hasonlít a tangenshez, de fordított irányban halad, azaz csökkenő</li>
+                <li>A kotangens minden kπ helyen nem értelmezett, ezeknél a pontoknál aszimptotája van.</li>
+                <li>A periódusa szintén π, és értékei a −∞ és ∞ között változnak. </li>
+            </ol>
+            <img src="Assets/ctg_fgv.png" id="fv">
+
+
+            <h2 id="resz3">3. rész: Video <img src="Assets/video.png" id="icon"></h2>
+            <p>
+                <iframe width="1310" height="737" src="https://www.youtube.com/embed/wA7aUBA3cVE"
+                    title="Szinusztétel és koszinusztétel alkalmazása" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </p>
+        </div>
+    </div>
+    </main>
+
+    <footer>&copy; Spindler Viktor 2025.05.20</footer>
+    <script src="Assets/js/main.js"></script>
+</body>
+
+</html>

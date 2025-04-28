@@ -1,0 +1,75 @@
+#keplet_kep{
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+    margin: 1rem auto;
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav img{
+    height: 5ex;
+}
+
+#icon{
+    height: 4ex;
+}
+#test{
+    height: 4ex;
+}
+#fv {
+    display: block; 
+    max-width: 100%;
+    height: auto; 
+    margin: 1rem auto; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    #keplet_kep {
+        width: 90%; 
+        margin: 0 auto; 
+        float: none; 
+    }
+
+    #icon {
+        height: 3ex; 
+    }
+
+    nav img {
+        height: 4ex; 
+    }
+}
+
+@media (max-width: 480px) {
+    #keplet_kep {
+        width: 100%;
+    }
+
+    #icon {
+        height: 2.5ex;
+    }
+
+    nav img {
+        height: 3ex;
+    }
+}
+@media (min-width: 769px) {
+    #keplet_kep {
+        width: 65%; 
+        float: right; 
+    }
+
+    #icon {
+        height: 5ex; 
+    }
+
+    nav img {
+        height: 6ex; 
+    }
+    ul{
+        padding-right: 5%;
+    }
+}

@@ -1,0 +1,46 @@
+https://www.mateking.hu/kozepiskolai-matek-teljes/trigonometria-a-sikgeometriaban/szinusz-koszinusz-tangens-derekszogu-haromszogekbe
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://matematikam.hu/konyv/pdf/09.matematikam.hu.pdf
+
+tananyag:
+
+	Szögfüggvények derékszögű háromszögben
+
+	sinα=szöggel szemközti befogó/átfogó=a/c
+
+	cosα=szög melletti befogó/átfogó=b/c
+
+	tanα=szöggel szemközti befogószög/ melletti befogó=a/b
+	
+	A sinα és cosα értékei mindig −1 és 1 közé esnek: −1 ≤ sinα ≤ 1 és −1 ≤ cosα ≤ 1
+
+	A sin2 α az egész kifejezés négyzetét jelenti: sin2 α = (sinα)2, de sin2 α ≠ sinα2 
+	
+	A pi értéke a trigonometriában jellemzően nem 3,14… hanem 180° (radian)
+
+	képek a függvényekről és azok elmagyarázása
+
+	 
+
+	
+	
+
+
+kapcsolodo feladatok: 
+
+a) Egy világítótorony teteje 32 fokos emelkedési szögben látszik abból a csónakból, ami a torony lábától 100 méter távolságban van. Milyen magas a torony?
+megoldas: A világítótorony körülbelül 62,5 méter magas.
+
+b) Egy 50 méter magas világítótorony tetejéről egy hajó 14°-nyi depresszió szög (vízszinteshez képest lefele mért szög) alatt látszik. A torony alja éppen a tenger szintjében van. Milyen távol van a hajóa torony aljától?
+megoldas:A hajó körülbelül 200,6 méterre van a világítótoronytól vízszintesen.
+
+c) Egy egyenlőszárú háromszög szárai 12 cm hosszúak, és az alapon fekvő szöge 70 fokosak. Mekkora az alap és mekkora a háromszög területe?
+megoldas: Az alap hossza körülbelül 8,21 cm A háromszög területe körülbelül 46,3 cm²
+
+d) Egy másik egyenlőszárú háromszögben az alap 16 cm, a szárak pedig 12 cm-esek. Mekkorák a háromszög szögei és a terület?
+megoldas:A két azonos szög: kb. 48,2°, A csúcsszög: kb. 83,6°, A háromszög területe: kb. 71,5 cm²
+
+e) Egy egyenlőszárú háromszög szárai 10 cm-esek, a szárak által bezárt szög pedig 50 fokos. Mekkora a háromszög területe és az alapja?
+megoldas:Az alap hossza kb. 8,45 cm, A háromszög területe kb. 38,3 cm²
+
+
+

@@ -1,0 +1,49 @@
+footer {
+    background-color: #004080; 
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#gamefooter{
+    background-color: #004080; 
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 0.8rem; 
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+}
+@media (min-width: 769px) {
+    footer {
+        font-size: 1rem; 
+        padding: 1.5rem; 
+    }
+}
+@media (min-width: 2300px){
+    footer{
+        background-color: #004080; 
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
